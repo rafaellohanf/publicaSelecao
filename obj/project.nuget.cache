@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "7CSAQGqR5N7q+ejlT5m5+6rl10/Dy4hUYxdzNq1GoxgjGd7cbmPoL9klQzTi0UtL8p0fDSdLs3RUCc2FwHtt9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rafael\\source\\repos\\VisualizadorDePlacares\\ScoreTracker\\ScoreTracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
+    "C:\\Users\\Rafael\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
