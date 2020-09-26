@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\VisualizadorDePlacares\\ScoreTracker\\ScoreTracker.csproj": {}
+    "C:\\Users\\Rafael\\Desktop\\publicaSelecao\\ScoreTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\VisualizadorDePlacares\\ScoreTracker\\ScoreTracker.csproj": {
+    "C:\\Users\\Rafael\\Desktop\\publicaSelecao\\ScoreTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\VisualizadorDePlacares\\ScoreTracker\\ScoreTracker.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Desktop\\publicaSelecao\\ScoreTracker.csproj",
         "projectName": "ScoreTracker",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\VisualizadorDePlacares\\ScoreTracker\\ScoreTracker.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Desktop\\publicaSelecao\\ScoreTracker.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\VisualizadorDePlacares\\ScoreTracker\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Desktop\\publicaSelecao\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,10 @@
             "System.Collections": {
               "target": "Package",
               "version": "[4.3.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
             }
           },
           "imports": [

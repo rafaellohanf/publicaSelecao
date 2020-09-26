@@ -1,0 +1,16 @@
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\ScoreTracker.exe
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\ScoreTracker.deps.json
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\ScoreTracker.runtimeconfig.json
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\ScoreTracker.runtimeconfig.dev.json
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\ScoreTracker.dll
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\ScoreTracker.pdb
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\xunit.abstractions.dll
+C:\Users\Rafael\Desktop\publicaSelecao\bin\Release\netcoreapp3.1\xunit.core.dll
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.csprojAssemblyReference.cache
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.AssemblyInfoInputs.cache
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.AssemblyInfo.cs
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.csproj.CopyComplete
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.dll
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.pdb
+C:\Users\Rafael\Desktop\publicaSelecao\obj\Release\netcoreapp3.1\ScoreTracker.genruntimeconfig.cache

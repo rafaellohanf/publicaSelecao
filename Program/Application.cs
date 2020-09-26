@@ -1,20 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace ScoreTracker.Program
 {
     class Application
     {
-        ScoreManager scrMngr = new ScoreManager();
-
+        ScreenManager screen;
+        ScoreTable scoreTable;
 
         /// <summary>
         /// Load the data of the Application and setup the objects
         /// </summary>
         public void Start()
         {
-            
+            scoreTable = ScoreTable.Instance();
+            screen = ScreenManager.Instance();
+            screen.Start(scoreTable);
         }
 
         /// <summary>
@@ -22,7 +25,7 @@ namespace ScoreTracker.Program
         /// </summary>
         public void Run()
         {
-
+            screen.Display();           
         }
 
         /// <summary>
