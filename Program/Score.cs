@@ -3,17 +3,19 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Text;
 
+
 namespace ScoreTracker.Program
 {
+    [Serializable]
     public class Score
     {
         public enum ScoreType
         {
             HIGH_SCORE,
-            LOWEST_SCORE,
+            LOW_SCORE,
             STANDARD
         }
-        private int score_id;
+        private int scoreId;
         private int points;
         public ScoreType scoreType = ScoreType.STANDARD;
 
@@ -25,10 +27,10 @@ namespace ScoreTracker.Program
             SetPoints(points);
 
         }
-         
+        
         public void SetId(int score_id)
         {
-            this.score_id = score_id;
+            this.scoreId = score_id;
         }
 
         public void SetPoints(int points)
@@ -39,6 +41,11 @@ namespace ScoreTracker.Program
         public void SetScoreType (ScoreType scoreType)
         {
             this.scoreType = scoreType;
+        }
+
+        public int GetId()
+        {
+            return scoreId;
         }
 
         public int GetPoints()

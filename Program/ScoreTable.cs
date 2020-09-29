@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Text;
 
 namespace ScoreTracker.Program
 {
-    public class ScoreTable
+    [Serializable]
+    public  class ScoreTable
     {
         enum ScoreSort
         {
@@ -30,9 +32,7 @@ namespace ScoreTracker.Program
         private int nLowBreak;
 
         private static int idCounter;
-
-        ScoreSort sort = ScoreSort.SCOREID_ASC;
-        ScoreFilter filter = ScoreFilter.NO_FILTER;
+        private const String fileName = "ScoreTableSave";
 
         private ScoreTable()
         {
@@ -49,13 +49,20 @@ namespace ScoreTracker.Program
         }
 
         private void Start()
-        {
-            //if there is a ScoreManager file, load the full object/ else start a new one
-            idCounter = 0;
-            nHighBreak = 0;
-            nLowBreak = 0;
+        { 
+            try
+            {
+                singInstance = FileManager.Load<ScoreTable>(fileName);
+            }
+            catch
+            {
+                idCounter = 0;
+                nHighBreak = 0;
+                nLowBreak = 0;
 
-            scoreList = new List<Score>();
+                scoreList = new List<Score>();
+                FileManager.Save<ScoreTable>(fileName, this);
+            }
         }
 
         public List<Score> GetScoreList()
@@ -94,11 +101,17 @@ namespace ScoreTracker.Program
                 else if(score.GetPoints() < lowScore)
                 {
                     lowScore = score.GetPoints();
-                    score.SetScoreType(Score.ScoreType.LOWEST_SCORE);
+                    score.SetScoreType(Score.ScoreType.LOW_SCORE);
                     nLowBreak++;
                 }   
             }
         }
+        
+        public String getFileName()
+        {
+            return fileName;
+        }
+
         public void SortScore()
         {
 
