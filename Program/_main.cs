@@ -10,7 +10,6 @@ namespace ScoreTracker
             Application app = new Application();
             app.Start();
             app.Run();
-            app.End();
         }
     }
 }

@@ -5,9 +5,19 @@ using System.Text;
 
 namespace ScoreTracker.Program
 {
+    /// <summary>
+    /// Base class of the application, starts and runs everythig
+    /// </summary>
     class Application
     {
+        /// <summary>
+        /// Application Screen Manager, it will control and show everything on screen
+        /// </summary>
         ScreenManager screen;
+
+        /// <summary>
+        /// Where all the score's information are stored
+        /// </summary>
         ScoreTable scoreTable;
 
         /// <summary>
@@ -21,19 +31,11 @@ namespace ScoreTracker.Program
         }
 
         /// <summary>
-        /// Application running loop
+        /// Run the Screen Manager Loop
         /// </summary>
         public void Run()
         {
             screen.Display();           
-        }
-
-        /// <summary>
-        /// Save the data and ends the application
-        /// </summary>
-        public void End()
-        {
-
         }
     }
 }
